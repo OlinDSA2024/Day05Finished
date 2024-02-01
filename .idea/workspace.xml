@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="162815f8-b7c3-4482-b815-ab0455c310bf" name="Changes" comment="Fixed doc string">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="162815f8-b7c3-4482-b815-ab0455c310bf" name="Changes" comment="Added timing code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -204,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706741606526</updated>
       <workItem from="1706741608178" duration="3830000" />
-      <workItem from="1706799650717" duration="305000" />
+      <workItem from="1706799650717" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the list to only work with Ints">
       <option name="closed" value="true" />
@@ -222,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706798002883</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added timing code">
+      <option name="closed" value="true" />
+      <created>1706799973624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706799973624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +238,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed the list to only work with Ints" />
     <MESSAGE value="Fixed doc string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed doc string" />
+    <MESSAGE value="Added timing code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added timing code" />
   </component>
 </project>
