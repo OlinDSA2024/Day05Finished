@@ -53,7 +53,7 @@ class MyMutableIntList {
     /**
      * Store [value] at position [index]
      * @parameter index the index to set
-     * @parameter the value to store at [index]
+     * @parameter value to store at [index]
      */
     operator fun set(index: Int, value: Int) {
         a.set(index, value)
