@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="162815f8-b7c3-4482-b815-ab0455c310bf" name="Changes" comment="Changed the list to only work with Ints">
+    <list default="true" id="162815f8-b7c3-4482-b815-ab0455c310bf" name="Changes" comment="Fixed doc string">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2bjw4K0gRJ5dO55NxVyFvOx6P9G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,11 +41,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build Day05Solution.executor": "Run",
     "Gradle.MyMutableListTest.add.executor": "Run",
     "Gradle.MyMutableListTest.executor": "Run",
     "Gradle.MyMutableListTest.get.executor": "Run",
     "Gradle.MyMutableListTest.set.executor": "Run",
     "Gradle.MyMutableListTest.size.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MyMutableListTest">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="MyMutableListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,30 +147,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MyMutableListTest.set" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;MyMutableListTest.set&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="MyMutableListTest.size" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,13 +171,20 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <module name="Day05Solution.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.MyMutableListTest" />
         <item itemvalue="Gradle.MyMutableListTest.add" />
         <item itemvalue="Gradle.MyMutableListTest.size" />
         <item itemvalue="Gradle.MyMutableListTest.get" />
-        <item itemvalue="Gradle.MyMutableListTest.set" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +203,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706741606526</updated>
-      <workItem from="1706741608178" duration="3792000" />
+      <workItem from="1706741608178" duration="3830000" />
+      <workItem from="1706799650717" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the list to only work with Ints">
       <option name="closed" value="true" />
@@ -223,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706797183178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed doc string">
+      <option name="closed" value="true" />
+      <created>1706798002883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706798002883</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +230,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed the list to only work with Ints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the list to only work with Ints" />
+    <MESSAGE value="Fixed doc string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed doc string" />
   </component>
 </project>

@@ -1,5 +1,16 @@
 package org.example
+import kotlin.time.measureTime
 
 fun main() {
-    println("Hello World!")
+    val arraySizes = listOf(100, 1000, 10000, 100000, 1000000, 10000000, 100000000)
+    val myList = MyMutableIntList()
+    println("numberOfElements totalTime timePerElement")
+    for (arraySize in arraySizes) {
+        val timeTaken = measureTime {
+            for (i in 0..<arraySize) {
+                myList.add(i)
+            }
+        }
+        println("$arraySize $timeTaken ${timeTaken/arraySize}")
+    }
 }
