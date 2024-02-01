@@ -1,5 +1,6 @@
 package org.example
 
+import java.lang.IndexOutOfBoundsException
 import kotlin.reflect.KClass
 
 class MyMutableIntList {
@@ -51,6 +52,9 @@ class MyMutableIntList {
      * @return the element at [index]
      */
     operator fun get(index: Int):Int {
+        if (index >= size()){
+            throw IndexOutOfBoundsException()
+        }
         return a[index]
     }
 

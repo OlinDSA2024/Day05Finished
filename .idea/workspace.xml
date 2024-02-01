@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="162815f8-b7c3-4482-b815-ab0455c310bf" name="Changes" comment="Fixed error in timing code.">
+    <list default="true" id="162815f8-b7c3-4482-b815-ab0455c310bf" name="Changes" comment="Whoops! Forgot to copy my list over.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/MyMutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MyMutableList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MyMutableListTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MyMutableListTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.MyMutableListTest">
     <configuration name="MyMutableListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.MyMutableListTest" />
+        <item itemvalue="Gradle.MyMutableListTest.get" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.MyMutableListTest.add" />
         <item itemvalue="Gradle.MyMutableListTest.size" />
-        <item itemvalue="Gradle.MyMutableListTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,7 @@
       <updated>1706741606526</updated>
       <workItem from="1706741608178" duration="3830000" />
       <workItem from="1706799650717" duration="724000" />
-      <workItem from="1706802427806" duration="415000" />
+      <workItem from="1706802427806" duration="1388000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the list to only work with Ints">
       <option name="closed" value="true" />
@@ -239,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706800097376</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Whoops! Forgot to copy my list over.">
+      <option name="closed" value="true" />
+      <created>1706804206806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706804206806</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +258,7 @@
     <MESSAGE value="Fixed doc string" />
     <MESSAGE value="Added timing code" />
     <MESSAGE value="Fixed error in timing code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error in timing code." />
+    <MESSAGE value="Whoops! Forgot to copy my list over." />
+    <option name="LAST_COMMIT_MESSAGE" value="Whoops! Forgot to copy my list over." />
   </component>
 </project>

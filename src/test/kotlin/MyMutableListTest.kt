@@ -2,6 +2,7 @@ import org.example.MyMutableIntList
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
+import java.lang.IndexOutOfBoundsException
 
 class MyMutableListTest {
 
@@ -39,8 +40,18 @@ class MyMutableListTest {
     @Test
     fun get() {
         val l = MyMutableIntList()
+        for (i in 0..<10) {
+            l.add(i)
+        }
         l.add(412)
-        assertEquals(l[0], 412)
+        assertEquals(l[0], 0)
+        assertEquals(l[10], 412)
+        try {
+            l[11]
+            assertTrue(false)
+        } catch(e: IndexOutOfBoundsException) {
+
+        }
     }
 
     @Test
