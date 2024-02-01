@@ -10,11 +10,15 @@ class MyMutableIntList {
      * Grow the array by a multiplicative factor
      */
     private fun growArray() {
-        a = if (a.isEmpty()) {
+        val tmp = if (a.isEmpty()) {
             IntArray(1)
         } else {
             IntArray(a.size*2)
         }
+        for (i in 0..<nextSlot) {
+            tmp[i] = a[i]
+        }
+        a = tmp
     }
 
     /**

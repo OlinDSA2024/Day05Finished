@@ -13,4 +13,14 @@ fun main() {
         }
         println("$arraySize $timeTaken ${timeTaken/arraySize}")
     }
+    println("numberOfElements totalTime timePerElement")
+    for (arraySize in arraySizes) {
+        val myList: MutableList<Int> = mutableListOf()
+        val timeTaken = measureTime {
+            for (i in 0..<arraySize) {
+                myList.add(i)
+            }
+        }
+        println("$arraySize $timeTaken ${timeTaken/arraySize}")
+    }
 }
